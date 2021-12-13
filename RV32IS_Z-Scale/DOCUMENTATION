@@ -1,0 +1,25 @@
+DOCUMENTATION
+Module			|	Inputs								|	Outputs
+------------------------|-----------------------------------------------------------------------|-------------------
+MUX2			|	in1, in2, sel 							|	out
+MUX3			|	in1, in2, in3, sel 						|	out
+MUX4			|	in1, in2, in3, in4, sel 					|	out
+MUX5			|	in1, in2, in3, in4, in5, sel 					|	out
+ADD4			|	in_addr 							|	out_addr		
+INSTRMEM 		|	addr 								|	instr
+PC			|	in_addr, clk 							|	pc
+------------------------------------------------------------------------------------------------|-------------------
+BTYPESEXT		|	imm12, imm10_5, imm4_1, imm11					|	branch
+ITYPESEXT		|	imm12 								|	imm32
+JTYPESEXT		|	imm20, imm10_1, imm11, imm19_12					|	jump
+STYPESEXT		|	imm11_5, imm4_0 						|	imm32
+ZTYPESEXT		|	imm5								|	imm32
+UTYPE			|	imm20								|	imm32
+ADDER			|	op1, op2 							|	out
+ALU			|	op1, op2, AluFun 						|	out
+BRANCHCONDGEN		|	rs1, rs2 							|	br_eq, br_lt, br_ltu
+CONTROL			|	instr, rs1, rs2							|	pc_sel, AluFun, Op2Sel, Op1Sel, Wb_sel, Rf_wen, Mem_rw, Mem_val
+DATAMEM			|	rs2, alu_out, mem_rw, mem_val, clk				|	out
+REG_FILE		|	rs1_addr, rs2_addr, wr_addr, wd, rf_wen, clk 			|	rs1, rs2
+
+

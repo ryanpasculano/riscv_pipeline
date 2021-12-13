@@ -1,0 +1,32 @@
+NOTES:
+
+What Does Fence do?
+Do we need to implement all opcodes
+
+
+
+
+Possible Sources of Errors:
+SRA in ALU
+
+
+Files								Converted?
+ADD4								Yes
+ALU									Yes
+BRANCHCONDGEN				Yes
+BRANCHTARGGEN				Yes
+CONTROL										Partial
+DATAMEM							Yes
+DECODER										Partial
+DECODER_REG								No
+INSTR_MEM						Yes
+ITYPESIGNEXTEND			Yes
+JUMPREGTARGGEN			Yes
+JUMPTARGGEN 				Yes
+MUX2								Yes
+MUX4											No
+MUX5								Yes
+PC									Yes
+REG_FILE									No
+STYPESIGNEXTEND			Yes
+UTYPE								Yes
