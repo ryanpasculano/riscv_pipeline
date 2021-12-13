@@ -1,3 +1,3 @@
-# csci320_project2
+# riscv_pipeline
 
-This is the git repo for the csci320 project 2. 
+This is the git repo for the riscv pipeline project.
